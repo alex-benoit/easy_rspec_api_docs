@@ -1,0 +1,17 @@
+body {
+  display: flex;
+  height: 100vh;
+  overflow: hidden;
+}
+
+nav {
+  overflow: scroll;
+  max-width: 40%;
+  min-width: 18%;
+}
+
+main {
+  flex-grow: 1;
+  overflow: scroll;
+  padding: 20px 30px;
+}
