@@ -1,4 +1,6 @@
-require_dependency "easy_rspec_api_docs/application_controller"
+# frozen_string_literal: true
+
+require_dependency 'easy_rspec_api_docs/application_controller'
 
 module EasyRspecApiDocs
   class ApiDocsController < ApplicationController
